@@ -12,3 +12,5 @@ gem "minitest", "~> 5.16"
 gem "rubocop", "~> 1.21"
 
 gem "thor", "~> 1.3"
+
+gem "prism", "~> 1.4"

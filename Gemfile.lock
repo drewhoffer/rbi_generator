@@ -46,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.16)
+  prism (~> 1.4)
   rake (~> 13.0)
   rbi_generator!
   rubocop (~> 1.21)
