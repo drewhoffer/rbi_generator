@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+#
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
+Dir.glob(File.expand_path("../spec/**/*_test.rb", __dir__)).each do |file|
+  require file
+end
